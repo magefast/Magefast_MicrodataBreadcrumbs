@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Magefast_MicrodataBreadcrumbs>
+            <version>1.0.1</version>
+        </Magefast_MicrodataBreadcrumbs>
+    </modules>
+    <global>
+        <helpers>
+            <microdata_breadcrumbs>
+                <class>Magefast_MicrodataBreadcrumbs_Helper</class>
+            </microdata_breadcrumbs>
+        </helpers>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <microdata_breadcrumbs module="Magefast_MicrodataBreadcrumbs">
+                    <file>microdata_breadcrumbs.xml</file>
+                </microdata_breadcrumbs>
+            </updates>
+        </layout>
+    </frontend>
+</config>

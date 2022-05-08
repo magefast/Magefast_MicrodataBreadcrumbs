@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="breadcrumbs">
+            <action method="setTemplate">
+                <template>microdata_breadcrumbs/page/html/breadcrumbs.phtml</template>
+            </action>
+        </reference>
+    </default>
+</layout>
