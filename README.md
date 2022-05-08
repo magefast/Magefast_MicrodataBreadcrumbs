@@ -12,5 +12,6 @@ This will good for your web-site in Google search result page.
 
 Added files for RWD theme
 
+<hr>
 <date>2015-11-03</date>
 <time>14:37:04</time>
